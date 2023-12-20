@@ -331,7 +331,10 @@ section {
 .about-containers,
 .about-details-container {
   display: flex;
-  flex-wrap: wrap;
+}
+
+.about-containers{
+  flex-wrap:wrap;
 }
 
 #about .text-container p{text-align:left;}
